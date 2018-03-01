@@ -231,6 +231,19 @@ li.chart__bar:active{
 }
 
 
+/* brandstof */
+
+body {
+  background: #18222F;
+}
+
+.wrapper {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
 
 
 /*
