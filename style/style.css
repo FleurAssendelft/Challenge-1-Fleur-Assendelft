@@ -272,7 +272,7 @@ section {
   content: '';
   width: 8px;
   height: 8px;
-  background: rgba(0, 0, 0, 0.15);
+  background: #5c85d6;;
   display: inline-block;
   margin-right: 5px;
 }
@@ -422,6 +422,7 @@ section.model-2 .graph:before {
 
 /*
 spedometer
+*/
 
 .speedometer {
   width: 200px;
@@ -463,7 +464,7 @@ spedometer
   height: 0;
 }
 .speedometer.speed-1 {
-  background-color: black;
+  background-color: #5c85d6;;
 }
 .speedometer.speed-1 > .pointer {
   animation-name: speed-1;
@@ -522,6 +523,6 @@ spedometer
     -webkit-transform: rotate(240deg);
     transform: rotate(240deg);
   }
-  */
+
 }
 
