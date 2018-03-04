@@ -1,7 +1,7 @@
 body{
 	color: white;
 	font-family: avenir;
-	background-color: #1e2326;
+  background: url("afbeeldingen/sky.jpg");
 }
 p{
   color: white;
@@ -9,7 +9,7 @@ p{
 .container{
 	display: grid;
 	grid-template-areas: 
-			"dashboard" 
+      "maan" 
 			"snelheid" 
 			"brandstof" 
 			"voedsel" 
@@ -18,9 +18,9 @@ p{
 }
 
 
-/* #336699;#3973ac*/
-.snelheid, .brandstof, .voertuig {
-	background-color: rgba(75,82,86, 0.4);
+/* #336699;#3973ac background-color: #1e2326;*/
+.snelheid, .brandstof, .voedsel, .voertuig {
+	background-color: rgba(75,82,86, 0.2);
 	margin-bottom: 2%;
 	margin-top: 1%;
 	/*https://codepen.io/keithclark/pen/zqcEd*/
@@ -29,8 +29,15 @@ p{
 #spacex{
 	width: 200px;
 }
+#maan{
+  width: 100%;
+  margin-top: -3%;
+}
 .dashboard{
 	grid-area:dashboard;
+}
+.maan{
+  grid-area: maan;
 }
 .snelheid{
 	grid-area:snelheid;
