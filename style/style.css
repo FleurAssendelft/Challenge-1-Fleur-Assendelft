@@ -74,6 +74,7 @@ sup {
 .informatie{
   grid-area: informatie;
   padding: 2%;
+  content: center;
 }
 .voedsel{
 	grid-area:voedsel;
