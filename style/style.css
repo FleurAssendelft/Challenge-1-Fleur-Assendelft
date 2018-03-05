@@ -569,10 +569,12 @@ spedometer
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 825px){
+@media only screen and (min-width: 500px) {
 
   .container{
     grid-template-rows: 1fr 1fr;
+    grid-template-column: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: minmax( 200px , 1fr);
     display: grid;
     grid-template-areas: 
         "maan maan" 
@@ -583,28 +585,30 @@ spedometer
         "voertuig voertuig" ; 
   }
 
-  @media only screen and (min-width: 826px) and (max-width: 1024px){
+  @media only screen and (min-width: 826px) {
     .container{
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      grid-template-rows: minmax( 200px , 1fr);
       display: grid;
       grid-template-areas: 
-          "maan maan" 
-          "brandstof brandstof"
-          "voertuig voertuig" 
-          "informatie voedsel"  
-          "snelheid snelheid";
+          "maan maan " 
+          "brandstof voedsel"
+          "snelheid voertuig " 
+          "informatie informatie" 
+       
   }
 }
 
 @media only screen and (min-width: 1025px){
    .container{
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      grid-template-rows: minmax( 200px , 1fr);
       display: grid;
       grid-template-areas: 
-          "maan maan maan" 
-          "brandstof voedsel voertuig"
-          "informatie informatie informatie"  
-          "snelheid snelheid";
+          "maan maan " 
+          "brandstof voertuig "
+          "snelheid informatie"
+          "voedsel informatie"
   }
 }
 
